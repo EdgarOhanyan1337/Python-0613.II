@@ -21,7 +21,7 @@ for i in range(len(number_list)):
 print(number_list)
 
 '''
-
+'''
 a = int(input("mutqagreq tiv"))
 b = int(input("mutqagreq tiv"))
 
@@ -37,3 +37,14 @@ def sign(x):
 
 y=sign(a) + sign(b)
 print(y)
+
+'''
+
+tiv1 = int(input("mutqagreq tiv"))
+tiv2 = int(input("mutqagreq tiv"))
+
+def power3(tiv1, tiv2):
+    return tiv1 ** tiv2
+y = power3(tiv1, tiv2)
+print(y)
+
